@@ -1,0 +1,15 @@
+
+Create a new text file called /etc/X11/xorg.conf.d/20-intel.conf with your favorite text editor containing the following text. Since this file resides in the /etc folder and not your home directory, you need root or sudo access to create or edit this file:
+
+Section "Device"
+
+Identifier "card0"
+
+Driver "intel"
+
+Option "AccelMethod" "uxa"
+
+EndSection
+
+hope this helps
+
