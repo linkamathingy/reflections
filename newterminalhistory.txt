@@ -1,0 +1,780 @@
+    1  cd
+    2  ls
+    3  ls | less
+    4  clear
+    5  ls - l | cat
+    6  ls -l | cat
+    7  ls -l
+    8  clear
+    9  ls > ls.txt
+   10  ls
+   11  cat ls.txt
+   12  ls
+   13  tar -cvf ls_backup.tar ls.txt
+   14  ls
+   15  rm ls.txt
+   16  ls
+   17  tar -xvf ls_backup.tar 
+   18  ls
+   19  mkdir compression
+   20  ls
+   21  cd compression
+   22  ls
+   23  pwd
+   24  seq 1000000 > million.txt
+   25  ls
+   26  cat million.txt
+   27  clear
+   28  ls
+   29  seq 1000000 > million.txt
+   30  seq 1000000 > million2.txt
+   31  seq 1000000 > million3.txt
+   32  ls -lh
+   33  gzip million,txt million3.txt
+   34  ls
+   35  ls -lh
+   36  clear
+   37  sudo yum-complete-transaction
+   38  sudo yum  package-cleanup --problems
+   39  sudo package-cleanup --problems
+   40  ls
+   41  gzip ls.txt
+   42  ls
+   43  cd compression
+   44  ls
+   45  tar -zcvf million.txt
+   46  tar -zcvf million.txt.tar,gz million.txt
+   47  ls
+   48  tar tvf million.txt.tar,gz 
+   49  ls
+   50  tar -xvf million.txt.tar,gz 
+   51  ls
+   52  rm million.txt
+   53  ls
+   54  tar -xvf million.txt.tar,gz 
+   55  ls
+   56  clear
+   57  ls
+   58  cd
+   59  ls
+   60  tar -xvf ls_backup.tar 
+   61  ls
+   62  virtualbox --version
+   63  history
+   64  sudo yume install virtualbox
+   65  sudo yum install virtualbox
+   66  vagrant -version
+   67  vagrant --version
+   68  vagrant init ubuntu/trusty64
+   69  vagrant up
+   70  assistant
+   71  gcc
+   72  gcc --version
+   73  sudo yum install qt-sdk
+   74  cd
+   75  cd Downloads
+   76  ls
+   77  run qt-creator-opensource-linux-x86_64-4.3.1.run
+   78  sudo yum -install-creator-opensource-linux-x86_64.3.1.run
+   79  chmod +x qt-creator-opensource-linux-x86_64-4.3.1.run
+   80  ls
+   81  ls-l
+   82  ls -l
+   83  system-config-display
+   84  sudo nano
+   85  sudo  rpm -Uvh http://dl.fedoraproject.org/pub/epel/beta/7/x86_64/
+   86  epel
+   87  git --version
+   88  sudo yum install vlc
+   89  sudo yum -y install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+   90  epel --version
+   91  ls epel
+   92  sudo yum install epel-release
+   93  yum repolist
+   94  yum -y install http://linuxdownload.adobe.com/linux/x86_64/adobe-release-x86_64-1.0-1.noarch.rpm
+   95  sudo yum -y install http://linuxdownload.adobe.com/linux/x86_64/adobe-release-x86_64-1.0-1.noarch.rpm
+   96  sudo yum install flash-plugin
+   97  sudo yum install icedtea-web
+   98  sudo yum install vlc smplayer ffmpeg HandBrake-{gui,cli}
+   99  sudo yum install libdvdcss gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld
+  100  clear
+  101  ls
+  102  mv build-untitled-Desktop_Qt_5_9_1_GCC_64bit-Debug/ untitled
+  103  ls
+  104  cd untitled
+  105  ls
+  106  history
+  107  cd ..
+  108  cd untitled
+  109  cd ../Downloads
+  110  ls
+  111  vlc stream.pls 
+  112  sudo yum update
+  113  sudo yum update --skip-broken
+  114  python --
+  115  sudo python
+  116  sudo update-alternatives --remove-all python
+  117  sudo yum update-alternatives --remove-all python
+  118  sudo ln -sf /usr/bin/python2.7 /usr/bin/python
+  119  python
+  120  ls
+  121  sudo apt-get install python3-tk
+  122  sudo yum install python3-tk
+  123  sudo ldconfig
+  124  ls
+  125  man ldconfig 
+  126  sudo ldconfig -v
+  127  ls
+  128  sudo yum install python3-tkinter.x86_64
+  129  python
+  130  ls
+  131  cd Python-3.6.2/
+  132  ls
+  133  sudo ./configure
+  134  make
+  135  make test
+  136  sudo make install
+  137  python
+  138  ls
+  139  ls -a
+  140  clear
+  141  cd
+  142  ls
+  143  rm Python-3.6.2.tar.xz 
+  144  ls
+  145  python
+  146  man ln
+  147  python
+  148  ls
+  149  cd Documents/
+  150  ls
+  151  python randomwhee.py 
+  152  man random
+  153  python randomwhee.py 
+  154  man random
+  155  python randomwhee.py 
+  156  ls
+  157  cd pappu-pakia/
+  158  git log
+  159  clear
+  160  firefox index.htm 
+  161  git checkout 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+  162  firefox index.htm 
+  163  git checkout 547f4171a82ec6429d002c1acef357aec41d3f17
+  164  firefox index.htm 
+  165  git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
+  166  git diff 547f4171a82ec6429d002c1acef357aec41d3f17 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+  167  git config --global user.email "linkamathingy@aol.com"
+  168  git config --global user.name 'linkamathingy'
+  169  ls -al ~/.ssh
+  170  ssh-keygen -t rsa -b 4096 -C "linkamathingy@aol.com"
+  171  eval "$(ssh-agent -s)"
+  172  ssh-add ~/.ssh/id_rsa
+  173  sudo yum install xclip
+  174  xclip -sel clip < ~/.ssh/id_rsa.pub
+  175  cd ..
+  176  ls
+  177  git version_control/
+  178  cd version_control/
+  179  ls
+  180  git init
+  181  git add game_old.js
+  182  git status
+  183  git commit
+  184  cd /usr/bin
+  185  ls
+  186  ls -l python*
+  187  clear
+  188  cd
+  189  ls
+  190  clear
+  191  python
+  192  sudo chmod -R ugo+rX /lib/python2.7/site-packages/
+  193  python
+  194  sclear
+  195  clear
+  196  sudo python
+  197  python
+  198  echo $0
+  199  python
+  200  git clone https://github.com/udacity/pappu-pakia.git
+  201  ls
+  202  cd pappu-pakia/
+  203  ls
+  204  nano index.htm 
+  205  firefox index.htm 
+  206  git log
+  207  git checkout 708bcce690e5faa5739bd471507c102ea16b77f7
+  208  firefox index.htm 
+  209  git checkout 547f4171a82ec6429d002c1acef357aec41d3f17
+  210  firefox index.htm 
+  211  git log
+  212  git checkout 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+  213  firefox index.htm 
+  214  git checkout fa4c6bade4970c282b3870ad16f1bde8164663a9
+  215  git log
+  216  clear
+  217  git log
+  218  git checkout 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+  219  git checkout 547f4171a82ec6429d002c1acef357aec41d3f17
+  220  git checkout fa4c6bade4970c282b3870ad16f1bde8164663a9
+  221  git log 
+  222  git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
+  223  git checkout fa4c6bade4970c282b3870ad16f1bde8164663a9
+  224  firefox index.htm 
+  225  git checkout 547f4171a82ec6429d002c1acef357aec41d3f17
+  226  firefox index.htm 
+  227  git checkout 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+  228  firefox index.htm 
+  229  man diff
+  230  man git log
+  231  git diff 547f4171a82ec6429d002c1acef357aec41d3f17 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+  232  git diff 547f4171a82ec6429d002c1acef357aec41d3f17 fa4c6bade4970c282b3870ad16f1bde8164663a9
+  233  git checkout fa4c6bade4970c282b3870ad16f1bde8164663a9
+  234  git log
+  235  git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
+  236  git checkout 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+  237  git log
+  238  git diff 746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+  239  cd version_control/
+  240  git status
+  241  git commmit -m "whee"
+  242  git commit -m "whee"
+  243  git log
+  244  git status
+  245  git add game_new.js lesson-2-reflection-prompts.txt
+  246  git commit -m "huzzah"
+  247  git log
+  248  git status
+  249  echo $ps1
+  250  echo $PS1
+  251  PS1="\d \h $ "
+  252  PS1="\u \W $ "
+  253  PS1="\u \W]$ "
+  254  clear
+  255  cd 
+  256  ls
+  257  cd 
+  258  cd ..
+  259  ls -a
+  260  cd ..
+  261  ls
+  262  cd bin
+  263  ls
+  264  ls < lesss
+  265  ls < less
+  266  cd
+  267  ls
+  268  cd Downloads/
+  269  ls
+  270  ls -a
+  271   cd ../Documents/
+  272  ls
+  273  sudo nano
+  274  ls
+  275  cd
+  276  ls
+  277  ls -a
+  278  cat .bash_profile
+  279  sudo nano .bash_profile 
+  280  whee
+  281  ls
+  282  cd pappu-pakia/
+  283  ;s
+  284  ls
+  285  cd Documents/
+  286  ls
+  287  cd
+  288  ls
+  289  cd version_control/
+  290  ls
+  291  cd
+  292  cd pappu-pakia/
+  293  ls
+  294  git log
+  295  git diff 746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3
+  296  git log
+  297  git checkout master
+  298  git log --stat
+  299  git log
+  300  ls
+  301  cd pappu-pakia/
+  302  ls
+  303  firefox kong.htm 
+  304  git config --global push.default upstream
+  305  git config --global merge.conflictstyle diff3
+  306  ls
+  307  ls ..
+  308  ls -a
+  309  ls ~
+  310  cd 
+  311  ls -a
+  312  sudo nano .bashrc
+  313  ls
+  314  cd pappu-pakia/
+  315  cd 
+  316  ls
+  317  cd ..
+  318  ls root
+  319  sudo root
+  320  sudo cd root
+  321  ls
+  322  cd ..
+  323  ls
+  324  atom -v
+  325  sublime -v
+  326  uname -m
+  327  cd ~
+  328  ls
+  329  wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3083_x64.tar.bz2
+  330  tar vxjf sublime_text_3_build_3083_x64.tar.bz2
+  331  sudo mv Sublime\ Text\ 3 /opt/
+  332  sudo mv sublime_text_3 /opt/
+  333  sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime
+  334  sublime -v
+  335  sudo sublime
+  336   git config --global core.editor "subl -n -w
+  337  git config --global core.editor "subl -n -w
+  338  "
+  339  git config --global core.editor "subl -n -w"
+  340  subl
+  341  sublime
+  342  pwd
+  343  ls
+  344  cd su
+  345  cd Qt
+  346  ls
+  347  cd
+  348  ls
+  349  cd version_control/
+  350  ls
+  351  ls -a
+  352  cd Asteroids/
+  353  ls
+  354  ls-a
+  355  ls -a
+  356  sudo mv ../.git /.git
+  357  ls
+  358  ls -a
+  359  cd /
+  360  ls
+  361  ls -a
+  362  sudo mv /.git /home/linkamathingy/version_control/
+  363  ls
+  364  cd
+  365  ls
+  366  cd version_control/
+  367  ls
+  368  ls -a
+  369  git log
+  370  rm .git
+  371  rmdir .git
+  372  rmdir -f .git
+  373  rmdir -rf .git
+  374  pwd
+  375  ls
+  376  cd Asteroids/
+  377  ls
+  378  firefox game_new
+  379  git --version
+  380  git clone https://github.com/udacity/asteroids.git
+  381  ls
+  382  mv asteroids ../asteroids
+  383  ls
+  384  cd ..
+  385  ls
+  386  cd asteroids/
+  387  git config --global color.ui auto
+  388  git log
+  389  ls
+  390  firefox index.html 
+  391  sublime game.js 
+  392  pwd
+  393  git status 
+  394  git add game.js 
+  395  git status
+  396  git commit
+  397  git commit -m "fixed streaming bullets"
+  398  git log
+  399  firefox index.html 
+  400  git branch
+  401  git branch easy-mode
+  402  git checkout easy-mode
+  403  sublime game.js
+  404  git add game.js
+  405  git commit -m 'less roids for newbs'
+  406  git status
+  407  firefox index.html 
+  408  git checkout
+  409  git checkout master
+  410  firefox index.html 
+  411  git checkout coins
+  412  git log
+  413  firefox index.html 
+  414  git log --graph --oneline master coins
+  415  history
+  416  git checkout master
+  417  git log
+  418  git log --graph --oneline master coins
+  419  git merge master coins
+  420  git merge --abort
+  421  git log
+  422  git config --global core.autocrlf true.
+  423  ls -a
+  424  git merge master coins
+  425  git config --global core.autocrlf true
+  426  git merge master coins
+  427  git merge --abort
+  428  ls
+  429  git diff
+  430  ls
+  431  git merge master coins
+  432  show
+  433  git show
+  434  git merge --abort
+  435  git checkout coins
+  436  git diff
+  437  git status
+  438  git merge master
+  439  git merge --abort
+  440  git checkout master
+  441  sit status
+  442  git status
+  443  subliime game.js 
+  444  sublime game.js 
+  445  ls
+  446  git add game.js
+  447  git status
+  448  man git
+  449  git rm game.js
+  450  git rm --cached game.js
+  451  git status
+  452  cd version_control/
+  453  cd asteroids/
+  454  cd version_control/
+  455  ls
+  456  cd asteroids/
+  457  ls
+  458  git status
+  459  git man
+  460  man git
+  461  ls
+  462  cd version_control/asteroids/
+  463  git --clean
+  464  git clean
+  465  git clean -f
+  466  git status
+  467  git reset HEAD
+  468  git status
+  469  git checkout easy-mode
+  470  git checkout master
+  471  git status
+  472  git log
+  473  git checkout coins
+  474  git checkout master
+  475  git merge master coins
+  476  sublime game.js 
+  477  git merge -abort
+  478  git merge --abort
+  479  git merge master coins
+  480  sublime game.js 
+  481  git add game.js
+  482  git commit
+  483  git commit -m "wowza merging is fun"
+  484  git merge master coins
+  485  firefox index.html 
+  486  git log
+  487  git checkout 09638757b566a76c9fbc53714efb6b13c9b38c66
+  488  firefox index.html 
+  489  git merge master
+  490  git checkout master
+  491  firefox index.html
+  492  ls > less
+  493  ls | less
+  494  clear
+  495  ls
+  496  rm less
+  497  ls -a
+  498  history > history.txt
+  499  sublime history.txt 
+  500  git config --global core.editor "sublime -n -w"
+  501  sublime
+  502  mkdir packer
+  503  ls
+  504  cd packer/
+  505  ls
+  506  unzip packer_1.0.4_linux_amd64.zip 
+  507  ls
+  508  ls .a
+  509  ls -a
+  510  cd packer
+  511  rm paker
+  512  rm packer
+  513  ls
+  514  sudo  wget https://dl.bintray.com/mitchellh/packer/packer_0.7.5_linux_amd64.zip
+  515  curl -O https://releases.hashicorp.com/packer/0.12.2/packer_0.12.2_linux_amd64.zip
+  516  sudo unzip -d /usr/local packer_0.12.2_linux_amd64.zip
+  517  sudo ln -s /usr/local/packer /usr/local/bin/packer.io
+  518  packer.io
+  519  packer -v
+  520  cd
+  521  packer -v
+  522  cd ..
+  523  ls
+  524  ls -a
+  525  cd ..
+  526  ls
+  527  cd
+  528  ls
+  529  cd Downloads/
+  530  ls
+  531  tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz 
+  532  sudo tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz 
+  533  export PATH=$PATH:
+  534  cd 
+  535  ls
+  536  $ mkdir -p $GOPATH/src/github.com/hashicorp && cd $_
+  537  sudo mkdir -p $GOPATH/src/github.com/hashicorp && cd $_
+  538  $ git clone https://github.com/hashicorp/packer.git
+  539  git clone https://github.com/hashicorp/packer.git
+  540  sudo git clone https://github.com/hashicorp/packer.git
+  541  cd packer
+  542  make dev
+  543  sudo make dev
+  544  packer -v
+  545  sudo packer -v
+  546  cd
+  547  echo $PATH
+  548  echo $GOPATH
+  549  cd /usr/local/go/bin
+  550  ls
+  551  cd /etc/profile
+  552  cd /etc
+  553  ls
+  554  nano profile
+  555  sudo nano profile
+  556  cd
+  557  ls
+  558  cd go
+  559  ls
+  560  mk src/hello
+  561  sudo mkdir src/hello
+  562  cd src/
+  563  ls
+  564  cd hello
+  565  sublime
+  566  sudo sublime
+  567  ls
+  568  go build
+  569  sudo go build
+  570  go build
+  571  $ cd /go/src/hello
+  572  history
+  573  go -v
+  574  cd
+  575  ls'
+  576  whee
+  577  git clone http://github.com/linkamathingy/devops-intro-project devops
+  578  ls
+  579  cd devops/
+  580  ls
+  581  cd
+  582  ls
+  583  nano
+  584  ls
+  585  ls -a
+  586  packer
+  587  packer -v
+  588  packer build -only=virtualbox-iso application-server.json
+  589  unzip packer_1.0.4_linux_amd64.zip 
+  590  ls
+  591  ls ls -l
+  592  ls -l
+  593  echo $PATH
+  594  cd
+  595  ls
+  596  ls -a
+  597  sudo nano .bash_profile 
+  598  echo $PATH
+  599  restart
+  600  clear
+  601  reset
+  602  ls
+  603  echo $PATH
+  604  sudo nano .bash_profile 
+  605  echo $PATH
+  606  sudo nano .bash_profile 
+  607  echo $PATH
+  608  restart
+  609  reset
+  610  echo $PATH
+  611  packer -v
+  612  ls
+  613  mv Computer\ Science/ Computer_Science
+  614  ls
+  615  reset
+  616  echo $PATH
+  617  man login(1)
+  618  man login
+  619  cd usr/bin
+  620  cd ..
+  621  ls
+  622  cd ..
+  623  ls
+  624  cd usr/bin
+  625  ls
+  626  sudo ln -s /home/linkamathingy/packer/packer  packer
+  627  cd ...
+  628  cd ..
+  629  ls
+  630  cd ..
+  631  ls
+  632  cd /home/linkamathingy/packer
+  633  ls
+  634  cd
+  635  ls
+  636  ls -a
+  637  sudo sublime .bash_profile
+  638  reset
+  639  ls
+  640  echo $PATH
+  641  packer -v
+  642  packer
+  643  cd ..
+  644  cd /
+  645  cd etc
+  646  ls
+  647  sudo sublime environment
+  648  sudo nano environment 
+  649  nano
+  650  ls
+  651  cd Computer_Science/
+  652  ls
+  653  cd javascript-course/
+  654  ls
+  655  cd frontend-nanodegree-resume/
+  656  ls
+  657  sublime
+  658  nano
+  659  ls
+  660  nano wheeyou.txt 
+  661  ls
+  662  firefox index.html 
+  663  cd
+  664  sudo yum install autoconf automake gcc-c++ libdb4-cxx libdb4-cxx-devel boost-devel openssl-devel
+  665  cd /usr/src
+  666  sudo wget https://www.openssl.org/source/openssl-1.0.1l.tar.gz
+  667  tar zxvf openssl-1.0.1l.tar.gz
+  668  sudo tar zxvf openssl-1.0.1l.tar.gz
+  669  cd openssl-1.0.1l
+  670  export CFLAGS="-fPIC"
+  671  sudo ./config --prefix=/opt/openssl shared enable-ec enable-ecdh enable-ecdsa
+  672  sudo make
+  673  sudo make install
+  674  cd /usr/src
+  675  sudo wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.tar.gz
+  676  sudo tar zxvf v0.9.4.tar.gz
+  677  cd bitcoin-0.9.4
+  678  sudo ./autogen.sh
+  679  sudo ./configure --prefix=/opt/bitcoin PKG_CONFIG_PATH=/opt/openssl/lib/pkgconfig LIBS=-Wl,-rpath,/opt/openssl/lib
+  680  sudo make
+  681  sudo yum upgrade
+  682  cd
+  683  sudo yum install http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  684  sudo yum install autoconf automake gcc-c++ libdb4-cxx libdb4-cxx-devel boost-devel openssl-devel
+  685  cd /usr/src
+  686  sudo wget https://www.openssl.org/source/openssl-1.0.1l.tar.gz
+  687  sudo tar zxvf openssl-1.0.1l.tar.gz
+  688  cd openssl-1.0.1l
+  689  sudo export CFLAGS="-fPIC"
+  690  export CFLAGS="-fPIC"
+  691  sudo ./config --prefix=/opt/openssl shared enable-ec enable-ecdh enable-ecdsa
+  692  sudo make all
+  693  sudo make install
+  694  cd /usr/src
+  695  sudo wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.tar.gz
+  696  sudo tar zxvf v0.9.4.tar.gz
+  697  cd bitcoin-0.9.4
+  698  ./autogen.sh
+  699  sudo ./autogen.sh
+  700  ./configure --prefix=/opt/bitcoin PKG_CONFIG_PATH=/opt/openssl/lib/pkgconfig LIBS=-Wl,-rpath,/opt/openssl/lib
+  701  sudo ./configure --prefix=/opt/bitcoin PKG_CONFIG_PATH=/opt/openssl/lib/pkgconfig LIBS=-Wl,-rpath,/opt/openssl/lib
+  702  sudo make
+  703  ls
+  704  sudo make install
+  705  make install
+  706  sudo ./configure --prefix=/opt/bitcoin PKG_CONFIG_PATH=/opt/openssl/lib/pkgconfig LIBS=-Wl,-rpath,/opt/openssl/lib
+  707  sudo yum install libdb++-dev 
+  708  cd /build_unix
+  709  cd
+  710  cd 
+  711  cd /
+  712  ls
+  713  locate db_cxx.h
+  714  config.log
+  715  cd
+  716  ls
+  717  cd Downloads
+  718  ls
+  719  sudo tar zxvf db-6.2.32.tar.gz 
+  720  ls
+  721  sudo mv db-6.2.32 ../db-6.2.32
+  722  ls
+  723  cd
+  724  ls
+  725  cd db-6.2.32/
+  726  ls
+  727  cd build_unix/
+  728  ../dist/configure --prefix=/usr/local --enable-cxx
+  729  sudo ../dist/configure --prefix=/usr/local --enable-cxx
+  730  sudo make
+  731  sudo make install
+  732  cd
+  733  cd /usr/src
+  734  sudo wget https://github.com/bitcoin/bitcoin/archive/v0.9.4.tar.gz
+  735  sudo tar zxvf v0.9.4.tar.gz
+  736  cd bitcoin-0.9.4
+  737  sudo ./autogen.sh
+  738  sudo ./configure --prefix=/opt/bitcoin PKG_CONFIG_PATH=/opt/openssl/lib/pkgconfig LIBS=-Wl,-rpath,/opt/openssl/lib
+  739  cd
+  740  ls
+  741  cd db-6.2.32/
+  742  ls
+  743  cd build_unix/
+  744  ls
+  745  sudo make uninstall
+  746  cd 
+  747  ls
+  748  cd Downloads/
+  749  ls
+  750  sudo tar zxvf db-4.8.30.tar.gz 
+  751  ls
+  752  sudo mv db-4.8.30 ../db-4.8.30
+  753  ls
+  754  cd
+  755  ls
+  756  cd db-4.8.30/
+  757  ls
+  758  cd build_unix/
+  759  ls
+  760  sudo ../dist/configure --prefix=/usr/local --enable-cxx
+  761  sudo make
+  762  cd
+  763  ls
+  764  sudo rm -rf db-4.8.30/
+  765  sudo rm -rf db-6.2.32/
+  766  ls
+  767  cd db-4.8.30/
+  768  cd build_unix
+  769  sudo ../dist/configure --prefix=/usr/local --enable-cxx
+  770  sudo make
+  771  ls
+  772  cd Documents/
+  773  ls
+  774  cd Computer_Science/
+  775  ls
+  776  cd version_control/
+  777  ls
+  778  cd reflections/
+  779  ls
+  780  history > newterminalhistory.txt
